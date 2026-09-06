@@ -1,3 +1,11 @@
+<h1 align="center">
+  🚧 ✨ 🌟 COMING SOON 🌟 ✨ 🚧
+</h1>
+
+<h3 align="center">
+  🟦 Stay Tuned — Something Awesome Is Coming! 🟨
+</h3>
+
 # Exploring-Thailand-s-Government-Procurement-Spending
 สำรวจการใช้จ่ายภาครัฐไทยผ่านข้อมูลการจัดซื้อจัดจ้าง
 
