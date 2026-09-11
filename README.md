@@ -36,13 +36,20 @@
 
 --------------------------------------------
 
-## 1. ข้อมูลในภาพรวม ของปีงบประมาณ 2567 - 2569 
-| ปีงบประมาณ 2567 | ปีงบประมาณ 2568 | ปีงบประมาณ 2569 |
+## 1. ภาพรวมการจัดซื้อจัดจ้างภาครัฐ ปีงบประมาณ 2567–2569
+
+| ปีงบประมาณ 2567 | ปีงบประมาณ 2568 | ปีงบประมาณ 2569* |
 | :---: | :---: | :---: |
-| [![ปี 2567](figures/1_2567.svg)](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/blob/main/figures/1_2567.svg) | [![ปี 2568](figures/1_2568.svg)](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/blob/main/figures/1_2568.svg) | [![ปี 2569](figures/1_2569.svg)](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/blob/main/figures/1_2569.svg) |
+| [![ภาพรวมปี 2567](figures/1_2567.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/1_2567.svg) | [![ภาพรวมปี 2568](figures/1_2568.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/1_2568.svg) | [![ภาพรวมปี 2569](figures/1_2569.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/1_2569.svg) |
 | :---: | :---: | :-ข้อมูล ณ วันที่ 30 กรกฎาคม 2569-: |
 
-เติมคำอธิบายคำอธิบาย 
+### การวิเคราะห์
+
+จากข้อมูลพบว่า ปีงบประมาณ **2567** มีจำนวนโครงการมากที่สุดที่ **5,428,289 โครงการ** และมีวงเงินงบประมาณรวม **1,243,189.99 ล้านบาท** ขณะที่ปีงบประมาณ **2568** มีจำนวน **4,658,738 โครงการ** แต่มีวงเงินงบประมาณรวมสูงที่สุดในสามปีที่ **1,362,057.24 ล้านบาท** ส่วนปีงบประมาณ **2569** มีข้อมูลจำนวน **3,935,690 โครงการ** และวงเงินงบประมาณรวม **1,173,086.06 ล้านบาท**
+
+ราคาที่ตกลงซื้อ/จ้างคิดเป็นสัดส่วนใกล้เคียงกันในทั้งสามปี โดยอยู่ที่ **94.25%** ในปี 2567, **94.26%** ในปี 2568 และ **94.91%** ในปี 2569 ขณะที่ส่วนต่างระหว่างวงเงินงบประมาณกับราคาที่ตกลงซื้อ/จ้างอยู่ที่ **71,536.16 ล้านบาท**, **78,141.58 ล้านบาท** และ **59,682.68 ล้านบาท** ตามลำดับ
+
+> **หมายเหตุ:** ข้อมูลปีงบประมาณ 2569 เป็นข้อมูล **ณ วันที่ 30 กรกฎาคม 2569** จึงยังไม่ใช่ข้อมูลครบทั้งปีงบประมาณ
 
 ----------------------------------------------------------------
 
@@ -50,6 +57,7 @@
 | ปีงบประมาณ 2567 | ปีงบประมาณ 2568 | ปีงบประมาณ 2569* |
 | :---: | :---: | :---: |
 | [![โครงการวงเงินสูงสุดและต่ำสุด ปี 2567](figures/2_2567.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/2_2567.svg) | [![โครงการวงเงินสูงสุดและต่ำสุด ปี 2568](figures/2_2568.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/2_2568.svg) | [![โครงการวงเงินสูงสุดและต่ำสุด ปี 2569](figures/2_2569.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/2_2569.svg) |
+| :---: | :---: | :-ข้อมูล ณ วันที่ 30 กรกฎาคม 2569-: |
 
 ### การวิเคราะห์
 
@@ -64,6 +72,7 @@
 | ปีงบประมาณ 2567 | ปีงบประมาณ 2568 | ปีงบประมาณ 2569* |
 | :---: | :---: | :---: |
 | [![ประเภทโครงการ ปี 2567](figures/3_2567.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/3_2567.svg) | [![ประเภทโครงการ ปี 2568](figures/3_2568.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/3_2568.svg) | [![ประเภทโครงการ ปี 2569](figures/3_2569.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/3_2569.svg) |
+| :---: | :---: | :-ข้อมูล ณ วันที่ 30 กรกฎาคม 2569-: |
 
 ### การวิเคราะห์
 
@@ -80,6 +89,7 @@
 | ปีงบประมาณ 2567 | ปีงบประมาณ 2568 | ปีงบประมาณ 2569* |
 | :---: | :---: | :---: |
 | [![วงเงินงบประมาณตามจังหวัด ปี 2567](figures/4_2567.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/4_2567.svg) | [![วงเงินงบประมาณตามจังหวัด ปี 2568](figures/4_2568.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/4_2568.svg) | [![วงเงินงบประมาณตามจังหวัด ปี 2569](figures/4_2569.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/4_2569.svg) |
+| :---: | :---: | :-ข้อมูล ณ วันที่ 30 กรกฎาคม 2569-: |
 
 ### การวิเคราะห์
 
@@ -98,6 +108,7 @@
 | ปีงบประมาณ 2567 | ปีงบประมาณ 2568 | ปีงบประมาณ 2569* |
 | :---: | :---: | :---: |
 | [![ความสัมพันธ์รายจังหวัด ปี 2567](figures/5_2567.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/5_2567.svg) | [![ความสัมพันธ์รายจังหวัด ปี 2568](figures/5_2568.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/5_2568.svg) | [![ความสัมพันธ์รายจังหวัด ปี 2569](figures/5_2569.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/5_2569.svg) |
+| :---: | :---: | :-ข้อมูล ณ วันที่ 30 กรกฎาคม 2569-: |
 
 ### การวิเคราะห์
 
@@ -116,6 +127,7 @@
 | ปีงบประมาณ 2567 | ปีงบประมาณ 2568 | ปีงบประมาณ 2569* |
 | :---: | :---: | :---: |
 | [![หน่วยงานวงเงินสูงสุด ปี 2567](figures/6_2567.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/6_2567.svg) | [![หน่วยงานวงเงินสูงสุด ปี 2568](figures/6_2568.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/6_2568.svg) | [![หน่วยงานวงเงินสูงสุด ปี 2569](figures/6_2569.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/6_2569.svg) |
+| :---: | :---: | :-ข้อมูล ณ วันที่ 30 กรกฎาคม 2569-: |
 
 ### การวิเคราะห์
 
@@ -134,6 +146,7 @@
 | ปีงบประมาณ 2567 | ปีงบประมาณ 2568 | ปีงบประมาณ 2569* |
 | :---: | :---: | :---: |
 | [![การกระจายวงเงินต่อโครงการ ปี 2567](figures/7_2567.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/7_2567.svg) | [![การกระจายวงเงินต่อโครงการ ปี 2568](figures/7_2568.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/7_2568.svg) | [![การกระจายวงเงินต่อโครงการ ปี 2569](figures/7_2569.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/7_2569.svg) |
+| :---: | :---: | :-ข้อมูล ณ วันที่ 30 กรกฎาคม 2569-: |
 
 ### การวิเคราะห์
 
