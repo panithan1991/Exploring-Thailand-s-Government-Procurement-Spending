@@ -37,6 +37,50 @@
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | [![ภาพรวมปี 2567](figures/1_2567.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/1_2567.svg) | [![ภาพรวมปี 2568](figures/1_2568.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/1_2568.svg) | [![ภาพรวมปี 2569](figures/1_2569.svg)](https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/1_2569.svg) |
 
+
+<details>
+<summary><b>📊 ปีงบประมาณ 2567</b></summary>
+
+<br>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/1_2567.svg">
+    <img src="figures/1_2567.svg" width="90%">
+  </a>
+</p>
+
+</details>
+
+<details>
+<summary><b>📊 ปีงบประมาณ 2568</b></summary>
+
+<br>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/1_2568.svg">
+    <img src="figures/1_2568.svg" width="90%">
+  </a>
+</p>
+
+</details>
+
+<details>
+<summary><b>📊 ปีงบประมาณ 2569</b></summary>
+
+<br>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/main/figures/1_2569.svg">
+    <img src="figures/1_2569.svg" width="90%">
+  </a>
+</p>
+
+<p align="center">
+  <i>* ข้อมูล ณ วันที่ 30 กรกฎาคม 2569</i>
+</p>
+
+</details>
+
 ** ข้อมูลปีงบประมาณ 2569 ณ วันที่ 30 กรกฎาคม 2569*
 
 ### การวิเคราะห์
