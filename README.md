@@ -6,9 +6,9 @@
 
 <br>
 
-![Fiscal Years](https://img.shields.io/badge/FISCAL%20YEARS-2567--2569-C9A227?style=for-the-badge&labelColor=0B1F3A)
-![Data](https://img.shields.io/badge/DATA-PUBLIC%20PROCUREMENT-C9A227?style=for-the-badge&labelColor=0B1F3A)
-![Visualization](https://img.shields.io/badge/VISUALIZATION-SVG-C9A227?style=for-the-badge&labelColor=0B1F3A)
+![Fiscal Years](https://img.shields.io/badge/FISCAL%20YEARS-2567--2569-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
+![Data](https://img.shields.io/badge/DATA-PUBLIC%20PROCUREMENT-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
+![Visualization](https://img.shields.io/badge/VISUALIZATION-SVG-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 
 <br>
 
@@ -47,7 +47,7 @@
 
 **https://govspending.data.go.th/**
 
-ขอขอบคุณหน่วยงานผู้ดูแลระบบข้อมูลการใช้จ่ายภาครัฐ ที่ได้รวบรวมและเผยแพร่ข้อมูลด้านการจัดซื้อจัดจ้างภาครัฐ เพื่อสนับสนุนการนำข้อมูลไปใช้ประโยชน์ในการศึกษา การวิเคราะห์ และการพัฒนางานด้านข้อมูล
+ขอขอบคุณหน่วยงานผู้ดูแล **ระบบข้อมูลการใช้จ่ายภาครัฐ (Thailand Government Spending)** ที่ได้รวบรวมและเผยแพร่ข้อมูลด้านการจัดซื้อจัดจ้างภาครัฐ เพื่อสนับสนุนการนำข้อมูลไปใช้ประโยชน์ในการศึกษา การวิเคราะห์ และการพัฒนางานด้านข้อมูล
 
 > **หมายเหตุเกี่ยวกับการใช้ข้อมูล**  
 > ผลการวิเคราะห์ การตีความ และการนำเสนอในโครงการนี้จัดทำขึ้นเพื่อวัตถุประสงค์ด้านการศึกษา โดยเป็นผลงานของผู้จัดทำ และไม่ถือเป็นผลการวิเคราะห์หรือข้อสรุปอย่างเป็นทางการของหน่วยงานเจ้าของข้อมูล
@@ -70,7 +70,7 @@
 
 <a id="section-1"></a>
 
-![SECTION 01](https://img.shields.io/badge/SECTION-01-C9A227?style=for-the-badge&labelColor=0B1F3A)
+![SECTION 01](https://img.shields.io/badge/SECTION-01-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 
 ## 1. ภาพรวมการจัดซื้อจัดจ้างภาครัฐ ปีงบประมาณ 2567–2569
 
@@ -140,7 +140,7 @@
 
 <a id="section-1-1"></a>
 
-![ANALYSIS 01.1](https://img.shields.io/badge/ANALYSIS-01.1-C9A227?style=flat-square&labelColor=0B1F3A)
+![ANALYSIS 01.1](https://img.shields.io/badge/ANALYSIS-01.1-176B70?style=flat-square&labelColor=0B1F3A)
 
 ### 1.1 วงเงินงบประมาณรวมจำแนกตามหมวดภารกิจ ปีงบประมาณ 2567–2569
 
@@ -210,7 +210,7 @@
 
 <a id="section-2"></a>
 
-![SECTION 02](https://img.shields.io/badge/SECTION-02-C9A227?style=for-the-badge&labelColor=0B1F3A)
+![SECTION 02](https://img.shields.io/badge/SECTION-02-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 
 ## 2. โครงการที่มีวงเงินงบประมาณสูงสุดและต่ำสุด ปีงบประมาณ 2567–2569
 
@@ -280,7 +280,7 @@
 
 <a id="section-3"></a>
 
-![SECTION 03](https://img.shields.io/badge/SECTION-03-C9A227?style=for-the-badge&labelColor=0B1F3A)
+![SECTION 03](https://img.shields.io/badge/SECTION-03-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 
 ## 3. การจัดซื้อจัดจ้างจำแนกตามประเภทโครงการ ปีงบประมาณ 2567–2569
 
@@ -348,7 +348,7 @@
 
 <a id="section-4"></a>
 
-![SECTION 04](https://img.shields.io/badge/SECTION-04-C9A227?style=for-the-badge&labelColor=0B1F3A)
+![SECTION 04](https://img.shields.io/badge/SECTION-04-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 
 ## 4. วงเงินงบประมาณรวมจำแนกตามจังหวัด ปีงบประมาณ 2567–2569
 
@@ -416,7 +416,7 @@
 
 <a id="section-4-1"></a>
 
-![ANALYSIS 04.1](https://img.shields.io/badge/ANALYSIS-04.1-C9A227?style=flat-square&labelColor=0B1F3A)
+![ANALYSIS 04.1](https://img.shields.io/badge/ANALYSIS-04.1-176B70?style=flat-square&labelColor=0B1F3A)
 
 ### 4.1 การกระจายวงเงินงบประมาณรวมรายจังหวัด ปีงบประมาณ 2567–2569
 
@@ -490,7 +490,7 @@
 
 <a id="section-5"></a>
 
-![SECTION 05](https://img.shields.io/badge/SECTION-05-C9A227?style=for-the-badge&labelColor=0B1F3A)
+![SECTION 05](https://img.shields.io/badge/SECTION-05-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 
 ## 5. ความสัมพันธ์ระหว่างจำนวนโครงการและวงเงินรวมรายจังหวัด ปีงบประมาณ 2567–2569
 
@@ -563,7 +563,7 @@
 
 <a id="section-6"></a>
 
-![SECTION 06](https://img.shields.io/badge/SECTION-06-C9A227?style=for-the-badge&labelColor=0B1F3A)
+![SECTION 06](https://img.shields.io/badge/SECTION-06-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 
 ## 6. หน่วยงานที่มีวงเงินงบประมาณรวมสูงสุด ปีงบประมาณ 2567–2569
 
@@ -633,7 +633,7 @@
 
 <a id="section-7"></a>
 
-![SECTION 07](https://img.shields.io/badge/SECTION-07-C9A227?style=for-the-badge&labelColor=0B1F3A)
+![SECTION 07](https://img.shields.io/badge/SECTION-07-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 
 ## 7. การกระจายวงเงินงบประมาณต่อโครงการ ปีงบประมาณ 2567–2569
 
@@ -718,8 +718,8 @@ https://govspending.data.go.th/
 <br>
 
 ![Data Analysis](https://img.shields.io/badge/DATA-ANALYSIS-0B1F3A?style=flat-square)
-![EDA](https://img.shields.io/badge/EXPLORATORY-DATA%20ANALYSIS-C9A227?style=flat-square)
-![Visualization](https://img.shields.io/badge/DATA-VISUALIZATION-0B1F3A?style=flat-square)
+![EDA](https://img.shields.io/badge/EXPLORATORY-DATA%20ANALYSIS-2A9D8F?style=flat-square)
+![Visualization](https://img.shields.io/badge/DATA-VISUALIZATION-176B70?style=flat-square)
 
 </div>
 
