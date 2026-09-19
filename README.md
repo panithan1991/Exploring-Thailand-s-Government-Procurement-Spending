@@ -769,8 +769,6 @@ https://govspending.data.go.th/
 
 ---
 
-## Project Summary
-
 <div align="center">
 
 ![Python](https://img.shields.io/badge/PYTHON-DATA%20ANALYSIS-0B1F3A?style=for-the-badge)
