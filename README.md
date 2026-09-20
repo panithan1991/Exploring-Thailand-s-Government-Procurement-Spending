@@ -429,11 +429,13 @@ Pattern 1 และ (Pattern 2 หรือ Pattern 3)
 
 ## Notebook และการทำซ้ำ
 
+โค้ดที่ใช้เตรียมข้อมูล วิเคราะห์ และสร้างผลลัพธ์ในส่วนนี้จัดเก็บไว้ใน [notebook/](notebook/) โดยแบ่งหน้าที่ดังนี้:
+
 | Notebook | หน้าที่ |
 |---|---|
-| [02_construction_data_preparation_2569.ipynb](02_construction_data_preparation_2569.ipynb) | รวมไฟล์ สกัดงานจ้างก่อสร้าง และเตรียมข้อมูลระดับรายการกับระดับโครงการ |
-| [03_construction_eda_2569.ipynb](03_construction_eda_2569.ipynb) | สำรวจวงเงิน เจาะบริเวณ 500,000 บาท เปรียบเทียบวิธีจัดซื้อ และกำหนดกลุ่มศึกษา |
-| [04_construction_review_indicators_2569.ipynb](04_construction_review_indicators_2569.ipynb) | ตรวจ Pattern 1–4 และจัดลำดับโครงการสำหรับเปิดเอกสาร |
+| [02_construction_data_preparation_2569.ipynb](notebook/02_construction_data_preparation_2569.ipynb) | รวมไฟล์ สกัดงานจ้างก่อสร้าง และเตรียมข้อมูลระดับรายการกับระดับโครงการ |
+| [03_construction_eda_2569.ipynb](notebook/03_construction_eda_2569.ipynb) | สำรวจวงเงิน เจาะบริเวณ 500,000 บาท เปรียบเทียบวิธีจัดซื้อ และกำหนดกลุ่มศึกษา |
+| [04_construction_review_indicators_2569.ipynb](notebook/04_construction_review_indicators_2569.ipynb) | ตรวจ Pattern 1–4 และจัดลำดับโครงการสำหรับเปิดเอกสาร |
 
 รันตามลำดับ `02 → 03 → 04` บน Google Colab ไฟล์ข้อมูลขนาดใหญ่และ CSV ผลลัพธ์ไม่ได้จัดเก็บใน GitHub ส่วนรูปใน [figure/](figure/) สร้างจาก output ล่าสุดของ notebook ทั้งสามไฟล์
 
