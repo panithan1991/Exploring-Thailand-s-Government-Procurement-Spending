@@ -11,7 +11,7 @@
 ![Fiscal Years](https://img.shields.io/badge/FISCAL%20YEARS-2567--2569-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 ![Public Data](https://img.shields.io/badge/DATA-PUBLIC%20PROCUREMENT-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 ![Analysis](https://img.shields.io/badge/ANALYSIS-EDA-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
-![Visualization](https://img.shields.io/badge/VISUALIZATION-SVG-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
+![Visualization](https://img.shields.io/badge/VISUALIZATION-PNG-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 
 <br>
 
@@ -20,10 +20,10 @@
 
 <br>
 
-[Project Overview](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/blob/main/README.md#project-overview) ·
-[Executive Summary](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/blob/main/README.md#executive-summary) ·
-[Analysis](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/blob/main/README.md#contents) ·
-[Data Source](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/blob/main/README.md#data-source)
+[Project Overview](#project-overview) ·
+[Executive Summary](#executive-summary) ·
+[Analysis](#contents) ·
+[Data Source](#data-source)
 
 </div>
 
@@ -46,6 +46,11 @@
 
 **การใช้และตีความข้อมูล:** เนื้อหาและข้อสรุปในโครงการนี้เป็นผลการวิเคราะห์ของผู้จัดทำเพื่อวัตถุประสงค์ทางการศึกษา ไม่ใช่ข้อสรุปอย่างเป็นทางการของหน่วยงานเจ้าของข้อมูล
 
+**เอกสารและโครงการอ้างอิงเพิ่มเติม**
+
+- [DADS5001 Data Tools — Project EDA](https://github.com/mdanmek/nida-dads-notes/blob/main/dads5001-data-tools/project/eda/README.md)
+- [Exploring Thailand's Government Procurement Spending](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending)
+
 **ที่มาของภาพและกราฟ:** [Exploring Thailand's Government Procurement Spending](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending)
 
 ---
@@ -61,7 +66,7 @@
 | **01.1** | [01.1 โครงสร้างวงเงินตามหมวดภารกิจ](#section-1-1) |
 | **01.2** | [01.2 การจัดซื้อจัดจ้างจำแนกตามประเภทโครงการ](#section-2) |
 | **01.3** | [01.3 ข้อค้นพบสำคัญ](#executive-summary) |
-
+| **02** | [จากเพดาน 500,000 บาท สู่ 161 รายการที่ควรตรวจสอบก่อน](#construction-screening) |
 
 ---
 
@@ -84,7 +89,7 @@
 
 | ปีงบประมาณ 2567 | ปีงบประมาณ 2568 | ปีงบประมาณ 2569* |
 | :---: | :---: | :---: |
-| [![วงเงินตามหมวดภารกิจ ปี 2567](figure/1_2567.svg)](figure/1_2567.svg) | [![วงเงินตามหมวดภารกิจ ปี 2568](figure/1_2568.svg)](figure/1_2568.svg) | [![วงเงินตามหมวดภารกิจ ปี 2569](figure/1_2569.svg)](figure/1_2569.svg) |
+| [![วงเงินตามหมวดภารกิจ ปี 2567](figure/10_budget_by_function_with_icons_2567.png)](figure/10_budget_by_function_with_icons_2567.png) | [![วงเงินตามหมวดภารกิจ ปี 2568](figure/10_budget_by_function_with_icons_2568.png)](figure/10_budget_by_function_with_icons_2568.png) | [![วงเงินตามหมวดภารกิจ ปี 2569](figure/10_budget_by_function_with_icons_2569.png)](figure/10_budget_by_function_with_icons_2569.png) |
 
 <p align="center"><em>รูปที่ 1–3 วงเงินงบประมาณรวมจำแนกตามหมวดภารกิจ (คลิกที่ภาพเพื่อดูขนาดเต็ม)</em></p>
 
@@ -94,8 +99,8 @@
 <br>
 
 <p align="center">
-  <a href="figure/1_2567.svg">
-    <img src="figure/1_2567.svg" width="92%" alt="วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ 2567">
+  <a href="figure/10_budget_by_function_with_icons_2567.png">
+    <img src="figure/10_budget_by_function_with_icons_2567.png" width="92%" alt="วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ 2567">
   </a>
 </p>
 
@@ -107,8 +112,8 @@
 <br>
 
 <p align="center">
-  <a href="figure/1_2568.svg">
-    <img src="figure/1_2568.svg" width="92%" alt="วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ 2568">
+  <a href="figure/10_budget_by_function_with_icons_2568.png">
+    <img src="figure/10_budget_by_function_with_icons_2568.png" width="92%" alt="วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ 2568">
   </a>
 </p>
 
@@ -120,8 +125,8 @@
 <br>
 
 <p align="center">
-  <a href="figure/1_2569.svg">
-    <img src="figure/1_2569.svg" width="92%" alt="วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ 2569">
+  <a href="figure/10_budget_by_function_with_icons_2569.png">
+    <img src="figure/10_budget_by_function_with_icons_2569.png" width="92%" alt="วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ 2569">
   </a>
 </p>
 
@@ -139,7 +144,7 @@
 
 | ปีงบประมาณ 2567 | ปีงบประมาณ 2568 | ปีงบประมาณ 2569* |
 | :---: | :---: | :---: |
-| [![ประเภทโครงการ ปี 2567](figure/2_2567.svg)](figure/2_2567.svg) | [![ประเภทโครงการ ปี 2568](figure/2_2568.svg)](figure/2_2568.svg) | [![ประเภทโครงการ ปี 2569](figure/2_2569.svg)](figure/2_2569.svg) |
+| [![ประเภทโครงการ ปี 2567](figure/03_project_type_summary_table_2567.png)](figure/03_project_type_summary_table_2567.png) | [![ประเภทโครงการ ปี 2568](figure/03_project_type_summary_table_2568.png)](figure/03_project_type_summary_table_2568.png) | [![ประเภทโครงการ ปี 2569](figure/03_project_type_summary_table_2569.png)](figure/03_project_type_summary_table_2569.png) |
 
 <p align="center"><em>รูปที่ 4–6 จำนวนโครงการ วงเงินรวม และวงเงินเฉลี่ย จำแนกตามประเภทโครงการ (คลิกที่ภาพเพื่อดูขนาดเต็ม)</em></p>
 
@@ -149,8 +154,8 @@
 <br>
 
 <p align="center">
-  <a href="figure/2_2567.svg">
-    <img src="figure/2_2567.svg" width="92%" alt="ตารางสรุปข้อมูลตามประเภทโครงการ ปีงบประมาณ 2567">
+  <a href="figure/03_project_type_summary_table_2567.png">
+    <img src="figure/03_project_type_summary_table_2567.png" width="92%" alt="ตารางสรุปข้อมูลตามประเภทโครงการ ปีงบประมาณ 2567">
   </a>
 </p>
 
@@ -162,8 +167,8 @@
 <br>
 
 <p align="center">
-  <a href="figure/2_2568.svg">
-    <img src="figure/2_2568.svg" width="92%" alt="ตารางสรุปข้อมูลตามประเภทโครงการ ปีงบประมาณ 2568">
+  <a href="figure/03_project_type_summary_table_2568.png">
+    <img src="figure/03_project_type_summary_table_2568.png" width="92%" alt="ตารางสรุปข้อมูลตามประเภทโครงการ ปีงบประมาณ 2568">
   </a>
 </p>
 
@@ -175,8 +180,8 @@
 <br>
 
 <p align="center">
-  <a href="figure/2_2569.svg">
-    <img src="figure/2_2569.svg" width="92%" alt="ตารางสรุปข้อมูลตามประเภทโครงการ ปีงบประมาณ 2569">
+  <a href="figure/03_project_type_summary_table_2569.png">
+    <img src="figure/03_project_type_summary_table_2569.png" width="92%" alt="ตารางสรุปข้อมูลตามประเภทโครงการ ปีงบประมาณ 2569">
   </a>
 </p>
 
@@ -202,9 +207,157 @@
 
 ---
 
+<a id="construction-screening"></a>
 
+# จากเพดาน 500,000 บาท สู่ 161 รายการที่ควรตรวจสอบก่อน
 
+> การวิเคราะห์ข้อมูลจัดซื้อจัดจ้างงานก่อสร้าง ปีงบประมาณ 2569  
+> เป้าหมายคือจัดลำดับความสำคัญสำหรับการตรวจเอกสาร ไม่ใช่ตัดสินว่ารายการใดทุจริต
 
+## คำถามที่เราอยากตอบ
+
+เมื่อโครงการก่อสร้างจำนวนมากใช้วิธีเฉพาะเจาะจงและมีวงเงินอยู่ใกล้ 500,000 บาท เราจะคัดกรองรายการที่มีรูปแบบซ้ำและควรได้รับการตรวจสอบก่อนอย่างเป็นระบบได้อย่างไร
+
+## คำตอบสั้น ๆ
+
+จากสัญญาก่อสร้างทั้งหมด **179,716 รายการ** เราพบรายการที่อยู่ในขอบเขตวิธีเฉพาะเจาะจงและวงเงินไม่เกิน 500,000 บาท **136,122 รายการ** ภายในกลุ่มนี้มีสัญญาใกล้เพดาน 490,000–500,000 บาท **20,200 รายการ** เมื่อใช้สัญญาณ “คู่หน่วยงาน–ผู้รับจ้างซ้ำ” และ “ผู้รับจ้างครองสัดส่วนสูงในหน่วยงาน” ร่วมกัน เหลือ **161 รายการ** สำหรับตรวจเอกสารเป็นลำดับแรก
+
+| จุดคัดกรอง | จำนวนรายการ | ความหมาย |
+|---|---:|---|
+| สัญญาก่อสร้างทั้งหมด | 179,716 | ฐานข้อมูลเริ่มต้น |
+| วิธีเฉพาะเจาะจง และวงเงิน ≤ 500,000 บาท | 136,122 | ขอบเขตการวิเคราะห์ |
+| วงเงิน 490,000–500,000 บาท | 20,200 | กลุ่มใกล้เพดาน |
+| เข้าเกณฑ์ Pattern 1 | 9,413 | คู่หน่วยงาน–ผู้รับจ้างมีรายการใกล้เพดานซ้ำ |
+| เข้าเกณฑ์ Pattern 2 | 1,343 | ผู้รับจ้างมีสัดส่วนสูงในหน่วยงาน |
+| เข้าเกณฑ์ทั้งสองแบบ | **161** | ลำดับแรกสำหรับตรวจเอกสาร |
+
+## 1. เริ่มจากกำหนดขอบเขตให้ชัด
+
+การวิเคราะห์นี้สนใจสัญญาก่อสร้างที่ใช้วิธีเฉพาะเจาะจงและมีวงเงินไม่เกิน 500,000 บาท จำนวน 136,122 รายการ หรือ 75.74% ของสัญญาก่อสร้างทั้งหมด
+
+![ขอบเขตข้อมูลที่ใช้วิเคราะห์](figure/fig05_01_study_scope.png)
+
+ขอบเขตนี้ช่วยให้เราเปรียบเทียบรายการภายใต้บริบทเดียวกัน ก่อนมองหารูปแบบใกล้เพดานวงเงิน
+
+## 2. สิ่งที่สะดุดตาคือการกระจุกใกล้ 500,000 บาท
+
+ภายในขอบเขตการวิเคราะห์ มีสัญญา 20,200 รายการอยู่ระหว่าง 490,000–500,000 บาท คิดเป็น 11.24% ของสัญญาก่อสร้างทั้งหมด การกระจุกตัวนี้เป็น “สัญญาณให้สำรวจต่อ” แต่ยังไม่ใช่หลักฐานความผิดปกติด้วยตัวมันเอง
+
+![การกระจายวงเงินบริเวณ 500,000 บาท](figure/fig05_02_contract_distribution_around_500k.png)
+
+## 3. รายการใกล้เพดานแทบทั้งหมดใช้วิธีเฉพาะเจาะจง
+
+เมื่อดูสัญญาใกล้เพดานทั้งหมด 20,450 รายการ พบว่า 20,200 รายการ หรือ 98.78% ใช้วิธีเฉพาะเจาะจง ส่วน e-bidding มี 238 รายการ และวิธีคัดเลือก 12 รายการ
+
+![วิธีจัดซื้อจัดจ้างของรายการใกล้เพดาน](figure/fig05_03_method_near_500k.png)
+
+ผลนี้ทำให้คำถามเปลี่ยนจาก “มีรายการใกล้เพดานหรือไม่” เป็น “รายการใดมีรูปแบบซ้ำที่ควรตรวจสอบก่อน”
+
+## 4. จากรายการเดี่ยว สู่ความสัมพันธ์หน่วยงาน–ผู้รับจ้าง
+
+เราเปลี่ยนหน่วยวิเคราะห์จากรายการสัญญาเป็นคู่ **ชื่อหน่วยงาน + ผู้รับจ้าง** เพื่อดูว่าคู่ใดเกิดรายการใกล้เพดานซ้ำหลายครั้ง Pattern 1 พบสัญญา 9,413 รายการ กระจายอยู่ใน 1,580 คู่หน่วยงาน–ผู้รับจ้าง
+
+![คู่หน่วยงานและผู้รับจ้างที่เกิดซ้ำ](figure/fig05_04_top_repeated_near_ceiling_pairs.png)
+
+<details>
+<summary><b>ดูแผนที่ประกอบ — 3 หน่วยงานที่มีโครงการมูลค่า 490,000–500,000 บาทเกิดซ้ำมากที่สุด</b></summary>
+
+<br>
+
+<p align="center">
+  <a href="figure/map1.png">
+    <img src="figure/map1.png" width="96%" alt="แผนที่การกระจายโครงการของ 3 หน่วยงานที่มีโครงการมูลค่า 490,000–500,000 บาทเกิดซ้ำมากที่สุด">
+  </a>
+</p>
+
+<p align="center"><em>แผนที่ 1 การกระจายตำแหน่งโครงการของหน่วยงานที่พบรายการใกล้เพดานซ้ำมากที่สุด</em></p>
+
+</details>
+
+<details>
+<summary><b>ดูแผนที่ประกอบ — 3 ผู้รับจ้างที่มีโครงการมูลค่า 490,000–500,000 บาทเกิดซ้ำมากที่สุด</b></summary>
+
+<br>
+
+<p align="center">
+  <a href="figure/map2.png">
+    <img src="figure/map2.png" width="96%" alt="แผนที่การกระจายโครงการของ 3 ผู้รับจ้างที่มีโครงการมูลค่า 490,000–500,000 บาทเกิดซ้ำมากที่สุด">
+  </a>
+</p>
+
+<p align="center"><em>แผนที่ 2 การกระจายตำแหน่งโครงการของผู้รับจ้างที่พบรายการใกล้เพดานซ้ำมากที่สุด โดยไม่เปิดเผยชื่อ</em></p>
+
+</details>
+
+<details>
+<summary><b>ดูแผนที่ประกอบ — หน่วยงานวงเงินสูงและผู้รับจ้างที่ได้งานซ้ำในช่วง 490,000–500,000 บาท</b></summary>
+
+<br>
+
+<p align="center">
+  <a href="figure/map3.png">
+    <img src="figure/map3.png" width="96%" alt="แผนที่การกระจายโครงการของหน่วยงานวงเงินสูงและผู้รับจ้างที่ได้งานซ้ำในช่วง 490,000–500,000 บาท">
+  </a>
+</p>
+
+<p align="center"><em>แผนที่ 3 มุมมองเชิงพื้นที่ของหน่วยงานที่มีมูลค่าโครงการรวมสูงและผู้รับจ้างที่ได้รับงานซ้ำ</em></p>
+
+</details>
+
+Pattern 1 ครอบคลุม 46.60% ของรายการใกล้เพดาน จึงเหมาะเป็นตัวชี้ “พื้นที่เสี่ยงกว้าง” มากกว่าจะใช้ตัดสินลำพัง
+
+## 5. ใช้สองสัญญาณร่วมกันเพื่อลดการหว่านแห
+
+Pattern 2 มองอีกมุมหนึ่ง: ผู้รับจ้างที่มีจำนวนสัญญาอย่างน้อย 10 รายการ และครองอย่างน้อย 80% ของทั้งจำนวนรายการและมูลค่างานภายในหน่วยงานนั้น เมื่อซ้อน Pattern 1 กับ Pattern 2 จำนวนรายการลดจากหลักพันเหลือ **161 รายการ**
+
+![เส้นทางการคัดกรองรายการตรวจสอบ](figure/fig05_05_review_filtering_journey.png)
+
+จุดตัดนี้คือรายการที่ควรตรวจเอกสารก่อน เพราะมีทั้งความถี่ใกล้เพดานในคู่เดิมและการกระจุกตัวของผู้รับจ้างในหน่วยงานเดียวกัน
+
+## 6. ผลลัพธ์สุดท้ายคือคิวตรวจสอบที่ลงมือทำได้
+
+กราฟต่อไปแสดงคู่หน่วยงาน–ผู้รับจ้างที่มีจำนวนรายการ Priority Review สูงสุด เพื่อให้ทีมตรวจสอบเริ่มจากกลุ่มที่มีหลักฐานเชิงข้อมูลหนาแน่นที่สุด
+
+![คู่หน่วยงานและผู้รับจ้างสำหรับตรวจสอบก่อน](figure/fig05_06_top_priority_pairs.png)
+
+ควรตรวจเอกสารประกอบ เช่น ขอบเขตงาน ราคากลาง วันที่ประกาศและทำสัญญา ความเชื่อมโยงของโครงการ การแข่งขันเสนอราคา และประวัติผู้รับจ้าง ก่อนสรุปผลใด ๆ
+
+## นิยามเกณฑ์ที่ใช้
+
+| Flag | เกณฑ์ | บทบาทในการวิเคราะห์ |
+|---|---|---|
+| Pattern 1 | คู่ชื่อหน่วยงาน + ผู้รับจ้างเดียวกัน มีรายการวงเงิน 490,000–500,000 บาทอย่างน้อย 3 รายการ | ค้นหารูปแบบซ้ำใกล้เพดาน |
+| Pattern 2 | ผู้รับจ้างมีอย่างน้อย 10 รายการ และครอง ≥80% ทั้งสัดส่วนจำนวนรายการและมูลค่าในหน่วยงาน | ค้นหาการกระจุกตัวสูง |
+| Priority Review | Pattern 1 และ Pattern 2 เป็นจริงพร้อมกัน | จัดลำดับตรวจสอบเอกสาร |
+| จังหวัด | แสดงและจัดเรียงผลลัพธ์เช่นเดียวกับ grain อื่น | ใช้เป็นบริบทเท่านั้น ไม่เข้า criteria |
+| หน่วยงานย่อย | ไม่นำมาใช้ | ตัด mapping และ grain นี้ออก เพราะส่วนใหญ่ซ้ำกับหน่วยงาน |
+
+ตัวเลข 3, 10 และ 80% เป็น **analyst-defined screening thresholds** ไม่ใช่เกณฑ์ทางกฎหมาย สามารถทำ sensitivity analysis เพิ่มเติมเพื่อดูว่าผลลัพธ์เปลี่ยนอย่างไรเมื่อปรับ threshold
+
+## ข้อจำกัด
+
+- Flag เป็นเครื่องมือคัดกรอง ไม่ใช่ข้อพิสูจน์การทุจริตหรือการหลีกเลี่ยงกฎ
+- ชื่อหน่วยงานและผู้รับจ้างอาจมีความคลาดเคลื่อนจากการสะกดหรือรูปแบบการบันทึก
+- การวิเคราะห์ยังไม่รวมเนื้อหา TOR ราคากลาง คุณสมบัติผู้เสนอราคา และความสัมพันธ์เชิงนิติบุคคล
+- จังหวัดใช้เพื่ออธิบายบริบท ไม่ได้มีผลต่อการเข้าเกณฑ์
+- ผลลัพธ์ขึ้นกับช่วงวงเงินและ threshold ที่กำหนด
+
+## ลำดับการทำงาน
+
+| Notebook | หน้าที่ |
+|---|---|
+| `02_construction_data_preparation_2569.ipynb` | เตรียมและตรวจคุณภาพข้อมูลก่อสร้าง |
+| `03_construction_eda_2569.ipynb` | สำรวจการกระจายวงเงินและวิธีจัดซื้อจัดจ้าง |
+| `04_construction_pattern_analysis_2569.ipynb` | สร้าง flag และตารางวิเคราะห์ระดับหน่วยงาน/คู่ผู้รับจ้าง |
+| `05_construction_storytelling_visuals_2569.ipynb` | สร้างภาพเล่าเรื่องและสรุปผลสำหรับนำเสนอ |
+
+## การทำซ้ำผลลัพธ์
+
+รัน Notebook 02 → 03 → 04 → 05 ตามลำดับ โดย Notebook 05 จะสร้างภาพสำหรับ README ไว้ในโฟลเดอร์ `figure/`
+
+---
+
+**ข้อสรุป:** ข้อมูลไม่ได้บอกว่า 161 รายการ “ผิด” แต่บอกว่า 161 รายการนี้มีเหตุผลเชิงข้อมูลเพียงพอที่จะถูกตรวจสอบก่อนรายการอื่น
 
 ---
 
@@ -213,7 +366,7 @@
 ![Python](https://img.shields.io/badge/PYTHON-DATA%20ANALYSIS-0B1F3A?style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/PANDAS-DATA%20PROCESSING-176B70?style=for-the-badge)
 ![EDA](https://img.shields.io/badge/EDA-EXPLORATORY%20ANALYSIS-2A9D8F?style=for-the-badge)
-![SVG](https://img.shields.io/badge/SVG-DATA%20VISUALIZATION-176B70?style=for-the-badge)
+![PNG](https://img.shields.io/badge/PNG-DATA%20VISUALIZATION-176B70?style=for-the-badge)
 
 <br><br>
 
@@ -241,6 +394,6 @@ Thailand Government Spending
 
 <br><br>
 
-[**กลับสู่ด้านบน**](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending/blob/main/README.md#top)
+[**กลับสู่ด้านบน**](#top)
 
 </div>
