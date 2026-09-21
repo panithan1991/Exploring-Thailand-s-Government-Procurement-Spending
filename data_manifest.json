@@ -1,0 +1,128 @@
+{
+  "07_lower10_project_budget_2567.csv": {
+    "id": "1YQpAhUcghJ9gM6eIC6qBZGe6WcVuKyWR",
+    "size": 4169,
+    "source_id": "1gifPtKQiaLQ-YhbqB4ze9814HWRLmH54",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/notebook/overview_output/2567/analysis_output/07_lower10_project_budget_2567.csv"
+  },
+  "07_top10_project_budget_2567.csv": {
+    "id": "1bkMYSpLM4UKivKCHe7S8Dsho0BaLgCdJ",
+    "size": 5619,
+    "source_id": "1k_HSVXawbGC-aIZwuWdfC_2cT_t2HIHC",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/notebook/overview_output/2567/analysis_output/07_top10_project_budget_2567.csv"
+  },
+  "07_top10_project_budget_2568.csv": {
+    "id": "1xsItnomfe9q4A9NYJ5U_lR0764mZMEE4",
+    "size": 5682,
+    "source_id": "1qghuOjog0n5IyS5amu4CapA3oFbtP6ip",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/notebook/overview_output/2568/analysis_output/07_top10_project_budget_2568.csv"
+  },
+  "07_lower10_project_budget_2568.csv": {
+    "id": "1aNYIMOH7Da8VvVhXI1XQigBYRNWk9IHj",
+    "size": 5098,
+    "source_id": "1dSepqKdqmWyw5W2Jy-HJwf2345uTI4Cz",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/notebook/overview_output/2568/analysis_output/07_lower10_project_budget_2568.csv"
+  },
+  "07_top10_project_budget_2569.csv": {
+    "id": "1ZwOBFVQkTRAnazjoeXzr3jkpSGFl2bkI",
+    "size": 6385,
+    "source_id": "1BQ_SMXc26fX4AumDkDJK28bt-C7whAex",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/notebook/overview_output/2569/analysis_output/07_top10_project_budget_2569.csv"
+  },
+  "07_lower10_project_budget_2569.csv": {
+    "id": "1tU1V9n2ysJmXxvmnm_SPz7n7Bhbz2B5_",
+    "size": 4371,
+    "source_id": "1ZNW_A10kKnt16J3rqIvub8pmxm8IFeBD",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/notebook/overview_output/2569/analysis_output/07_lower10_project_budget_2569.csv"
+  },
+  "construction_contract_supplier_study_scope_2569.csv": {
+    "id": "1dXH9N4ukZAabRQwl9nkQ-KidB1e80ZAh",
+    "size": 243311179,
+    "source_id": "1me0OlL4DtYcc3x__wX_gsi10lec13onO",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/processed/construction_contract_supplier_study_scope_2569.csv"
+  },
+  "construction_contract_review_indicators_2569.csv": {
+    "id": "1nYgjub4kfLTyX_9gnz3dM2GZWUM67wRJ",
+    "size": 247613515,
+    "source_id": "1kw4VN-35XNu0LrG1tttHckhuW1xeKg4a",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/processed/construction_contract_review_indicators_2569.csv"
+  },
+  "priority_review_contracts_2569.csv": {
+    "id": "1prDQwSgkNCFqarTx0rkFuQK12Q5J2MT_",
+    "size": 108598,
+    "source_id": "1UN6K7paDAscbqMRnSxfjeBoxGfw6W3wA",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/processed/priority_review_contracts_2569.csv"
+  },
+  "repeated_near_500k_agency_supplier_2569.csv": {
+    "id": "10fT6PqZbBa5mS4GEHHEOf8_qIeASToQk",
+    "size": 364037,
+    "source_id": "1NHM8xRYwaDkrq9dG4kE15jJ5mxGXxiUg",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/processed/repeated_near_500k_agency_supplier_2569.csv"
+  },
+  "2569-egp-contract-2.csv": {
+    "id": "1DUAh8zAtUUV4Hm2yRplCryUOQDFb3Ad8",
+    "size": 542097077,
+    "source_id": "1DQV-z_D7RHjXc-Ybg44wb9amh3aQb_tC",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/2569/2569-egp-contract-2.csv"
+  },
+  "2569-egp-contract-3.csv": {
+    "id": "1fD_6GqtIY7LUempYqId0qIEldcJd2moM",
+    "size": 529193616,
+    "source_id": "1yWEvIYeATupsUauA_7OSKCQqVe7_y7Ro",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/2569/2569-egp-contract-3.csv"
+  },
+  "2569-egp-contract-4.csv": {
+    "id": "19C4Ak8XNMvm2IBsr7TVpfexZE_1WBke5",
+    "size": 526729581,
+    "source_id": "1N7SMLUqeoReo7wZtLioYanwK-1i-WgxC",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/2569/2569-egp-contract-4.csv"
+  },
+  "2569-egp-contract-5.csv": {
+    "id": "1nsV7vqF8Um-QWKX_Q-kEQq6Z1BFDbK_y",
+    "size": 521850128,
+    "source_id": "1ZZACW680znRJYeL7GLoodWOYvJyIEW6r",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/2569/2569-egp-contract-5.csv"
+  },
+  "2569-egp-contract-6.csv": {
+    "id": "1-0zhDZjF2chjeXuPoSVGQWNYtp8fVIzt",
+    "size": 522697146,
+    "source_id": "1HfhfaChoyPlPN4zcv5Hss6mCbJrEzGgY",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/2569/2569-egp-contract-6.csv"
+  },
+  "2569-egp-contract-7.csv": {
+    "id": "1gl9sx_1ve-n7e9M_mQaj0A7mMnk2P0yb",
+    "size": 517466336,
+    "source_id": "14VxqwaoRg8ZP27x0jA0XTa63S9wrErKG",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/2569/2569-egp-contract-7.csv"
+  },
+  "2569-egp-contract-8.csv": {
+    "id": "1z0icf65DY2e7WPmc_qV5PPLdUVyT1wdR",
+    "size": 455588827,
+    "source_id": "1V0kdje1jynGmMR58qE_TWx4YpS4f7nj2",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/2569/2569-egp-contract-8.csv"
+  },
+  "2569-egp-contract-1.csv": {
+    "id": "1ygmuKsvVjNpjfg0k94Olcuox8efDP3cY",
+    "size": 615601896,
+    "source_id": "1MdN4I4uBTuy-jW4wmmacNqeP-f2bx7J8",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/dataset/procurement/egp-contract/2569/2569-egp-contract-1.csv"
+  },
+  "project_overview_2569.csv": {
+    "id": "1h3Oah1ARYenycAJnLa1DTefzjMryQuJ5",
+    "size": 1227718817,
+    "source_id": "1CEjrot2k24VMG-TW7LPPhD5fFVtdu2NZ",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/notebook/overview_output/2569/project_overview_2569.csv"
+  },
+  "project_overview_2568.csv": {
+    "id": "1WVh1etQtH45AemJE4J7mBCDOOT9QmQff",
+    "size": 1448461110,
+    "source_id": "1N6OW9S9tQaDFLb-tTygD_XvBKDZNygdj",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/notebook/overview_output/2568/project_overview_2568.csv"
+  },
+  "project_overview_2567.csv": {
+    "id": "1hEr6tXWRBgEM-uK0dOEKvzIhBdKzHtnx",
+    "size": 1685455822,
+    "source_id": "1FhtbM9-GBtc_1xN98ykQzMZTSNU_79MP",
+    "source_path": "/content/drive/MyDrive/DADS5001/project_1_dads5001/notebook/overview_output/2567/project_overview_2567.csv"
+  }
+}
