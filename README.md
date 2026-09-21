@@ -2,9 +2,9 @@
 
 <div align="center">
 
-# Exploring Thailand's Government Procurement Spending
+# Small Contracts, Big Picture: Procurement Below the 500,000 THB Threshold
 
-### การสำรวจการใช้จ่ายภาครัฐไทยผ่านข้อมูลการจัดซื้อจัดจ้าง
+### สัญญาขนาดเล็กในภาพรวมมหภาค: เกณฑ์จำกัดการจัดซื้อจัดจ้างภาครัฐไทยต่ำกว่า 500,000 บาท
 
 <br>
 
