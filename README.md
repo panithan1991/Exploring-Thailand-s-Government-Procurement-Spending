@@ -72,8 +72,7 @@
 | 8 | [ผลลัพธ์สุดท้ายคือคิวตรวจสอบที่ลงมือทำได้](#review-priority) |
 | 9 | [นิยามเกณฑ์ที่ใช้](#screening-definitions) |
 | 10 | [ข้อจำกัด](#limitations) |
-| 11 | [ลำดับการทำงาน](#workflow) |
-| 12 | [การทำซ้ำผลลัพธ์](#reproducibility) |
+| 11 | [คู่มือสำหรับผู้ที่ต้องการทดลองรันโค้ด](#reader-guide) |
 
 ---
 
@@ -367,26 +366,57 @@ Pattern 2 มองอีกมุมหนึ่ง: ผู้รับจ้�
 - จังหวัดใช้เพื่ออธิบายบริบท ไม่ได้มีผลต่อการเข้าเกณฑ์
 - ผลลัพธ์ขึ้นกับช่วงวงเงินและ threshold ที่กำหนด
 
-<a id="workflow"></a>
-
-## 11. ลำดับการทำงาน
-
-| Notebook | หน้าที่ |
-|---|---|
-| `02_construction_data_preparation_2569.ipynb` | เตรียมและตรวจคุณภาพข้อมูลก่อสร้าง |
-| `03_construction_eda_2569.ipynb` | สำรวจการกระจายวงเงินและวิธีจัดซื้อจัดจ้าง |
-| `04_construction_pattern_analysis_2569.ipynb` | สร้าง flag และตารางวิเคราะห์ระดับหน่วยงาน/คู่ผู้รับจ้าง |
-| `05_construction_storytelling_visuals_2569.ipynb` | สร้างภาพเล่าเรื่องและสรุปผลสำหรับนำเสนอ |
-
-<a id="reproducibility"></a>
-
-## 12. การทำซ้ำผลลัพธ์
-
-รัน Notebook 02 → 03 → 04 → 05 ตามลำดับ โดย Notebook 05 จะสร้างภาพสำหรับ README ไว้ในโฟลเดอร์ `figure/`
+**ข้อสรุป:** ข้อมูลไม่ได้บอกว่า 161 รายการ “ผิด” แต่บอกว่า 161 รายการนี้มีเหตุผลเชิงข้อมูลเพียงพอที่จะถูกตรวจสอบก่อนรายการอื่น
 
 ---
 
-**ข้อสรุป:** ข้อมูลไม่ได้บอกว่า 161 รายการ “ผิด” แต่บอกว่า 161 รายการนี้มีเหตุผลเชิงข้อมูลเพียงพอที่จะถูกตรวจสอบก่อนรายการอื่น
+<a id="workflow"></a>
+<a id="reproducibility"></a>
+<a id="reader-guide"></a>
+<a id="input-files"></a>
+
+## 11. คู่มือสำหรับผู้ที่ต้องการทดลองรันโค้ด
+
+**เริ่มรันใน Google Colab**
+
+1. เปิด [รายการ Notebook และลิงก์ Open in Colab](notebook/README.md) แล้วเลือกหัวข้อที่สนใจตามตารางด้านล่าง
+2. ตรวจว่าเข้าถึง [ข้อมูลบน Google Drive](https://drive.google.com/drive/folders/1ssVrUcY4TiYee9T2B0pwgr5SwvPp_lAq) ได้ หากเปิดไม่ได้ ให้ติดต่อเจ้าของข้อมูล
+3. สำหรับ Notebook 01 ตั้งค่า `YEAR` เป็น 2567, 2568 หรือ 2569 ส่วน Notebook 02–06 ใช้ปี 2569
+4. กด **Runtime → Run all** แล้วรอดูตารางและกราฟใน Notebook ไม่ต้องตั้งโฟลเดอร์บันทึกผลหรือเชื่อมต่อ Drive ส่วนตัว
+
+| Notebook | ใช้ทำอะไร |
+|---|---|
+| [01 — ภาพรวม](notebook/01_overview_plot.ipynb) | ดูภาพรวมการจัดซื้อจัดจ้างปีที่เลือก |
+| [02 — เตรียมข้อมูล](notebook/02_construction_data_preparation_2569.ipynb) | คัดเลือกและตรวจข้อมูลก่อสร้าง |
+| [03 — สำรวจข้อมูล](notebook/03_construction_eda_2569.ipynb) | ดูการกระจายวงเงินและวิธีจัดซื้อจัดจ้าง |
+| [04 — ตัวชี้วัด](notebook/04_construction_review_indicators_2569.ipynb) | วิเคราะห์ตัวชี้วัดระดับโครงการ |
+| [05 — กราฟสรุป](notebook/05_construction_storytelling_visuals_2569.ipynb) | ดูกราฟจากไฟล์ผลวิเคราะห์ของ Pae |
+| [06 — แผนที่](notebook/06_top_entities_longlat_maps_2569.ipynb) | ดูการกระจายงานของหน่วยงานและผู้รับจ้าง |
+
+แต่ละ Notebook รันแยกได้ ไม่ต้องส่งไฟล์ผลลัพธ์ต่อกัน หากต้องการศึกษาขั้นตอนวิเคราะห์ แนะนำอ่าน 02 → 03 → 04
+
+**ข้อมูลที่ใช้**
+
+ข้อมูล CSV อยู่ใน Drive รวม 21 ไฟล์ ประมาณ 9.08 GB โดยดาวน์โหลดเฉพาะไฟล์ที่ Notebook นั้นต้องใช้ลงพื้นที่ชั่วคราวของ Colab
+
+| Notebook | ข้อมูลที่ใช้ |
+|---|---|
+| 01 | `project_overview`, `07_top10_project_budget` และ `07_lower10_project_budget` ของปีที่เลือก |
+| 02–04 | `2569-egp-contract-1.csv` ถึง `2569-egp-contract-8.csv` |
+| 05 | `construction_contract_supplier_study_scope_2569.csv`, `construction_contract_review_indicators_2569.csv`, `repeated_near_500k_agency_supplier_2569.csv` และ `priority_review_contracts_2569.csv` |
+| 06 | `construction_contract_review_indicators_2569.csv` |
+
+ดูชื่อไฟล์ ลิงก์ดาวน์โหลด และตำแหน่งต้นทางทั้งหมดใน [DATA_FILES.md](DATA_FILES.md) หรือดูรายการสำหรับตรวจสอบใน [data_manifest.json](data_manifest.json)
+
+**ข้อควรทราบก่อนรัน**
+
+- ไม่บันทึกผล CSV/PNG/SVG ลง Drive และไม่เขียนทับรูปใน `figure/` เมื่อรันจบจะลบไฟล์พัก แต่เก็บ DataFrame ไว้ใช้งานต่อ
+- Notebook 02–04 อ่านต้นทางประมาณ 4.23 GB ต่อ Runtime จึงอาจใช้เวลา แนะนำแยก Runtime แต่ละ Notebook หาก RAM ไม่พอให้ Restart runtime แล้วรันใหม่
+- หากดาวน์โหลดติดข้อจำกัดของ Drive ให้ดาวน์โหลดข้อมูลเองแล้วตั้ง `LOCAL_DATA_DIR` ตาม [คู่มือข้อมูล](DATA_FILES.md)
+- **ผลอาจต่างกันตามรุ่น:** Notebook 04 ไม่ได้สร้างชุดข้อมูลที่ 05–06 ใช้โดยตรง และ 06 ใช้เกณฑ์ 75% ต่างจาก 80% ในบทวิเคราะห์นี้ หากยอดตรวจสอบไม่ตรง ให้ตรวจรุ่นข้อมูลและเกณฑ์ ไม่แก้ตัวเลขเพื่อบังคับให้ผ่าน
+- ตรวจ syntax และทดสอบด้วยข้อมูลจำลองแล้ว แต่ยังไม่ได้ยืนยันการ Run all ด้วยข้อมูลจริงครบทุก Notebook
+
+**สำหรับเจ้าของข้อมูล:** ก่อนเผยแพร่ ให้ตั้งโฟลเดอร์และไฟล์ใน Drive เป็น **Anyone with the link → Viewer** และทดลองเปิดโดยไม่ลงชื่อเข้าใช้
 
 ---
 
