@@ -8,7 +8,6 @@
 
 <br>
 
-![Fiscal Years](https://img.shields.io/badge/FISCAL%20YEARS-2567--2569-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 ![Public Data](https://img.shields.io/badge/DATA-PUBLIC%20PROCUREMENT-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 ![Analysis](https://img.shields.io/badge/ANALYSIS-EDA-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
 ![Visualization](https://img.shields.io/badge/VISUALIZATION-PNG-2A9D8F?style=for-the-badge&labelColor=0B1F3A)
@@ -16,7 +15,6 @@
 <br>
 
 **การสำรวจโครงสร้าง แนวโน้ม และการกระจายตัวของการจัดซื้อจัดจ้างภาครัฐไทย**  
-**จากข้อมูลปีงบประมาณ พ.ศ. 2567–2569**
 
 <br>
 
