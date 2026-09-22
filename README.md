@@ -33,18 +33,10 @@
 ข้อมูลที่ใช้ในการศึกษานี้มาจาก
 **ระบบข้อมูลการใช้จ่ายภาครัฐ (Thailand Government Spending)**
 [https://govspending.data.go.th/home](https://govspending.data.go.th/home)
-
 ขอขอบคุณหน่วยงานผู้ดูแลระบบข้อมูลการใช้จ่ายภาครัฐ (Thailand Government Spending) สำหรับการรวบรวมและเผยแพร่ข้อมูลการจัดซื้อจัดจ้างภาครัฐ ซึ่งเป็นประโยชน์ต่อการศึกษาและการวิเคราะห์ข้อมูลสาธารณะ
 ซึ่งผู้จัดทำได้นำข้อมูลดังกล่าวมาตรวจสอบโครงสร้าง ทำความสะอาดข้อมูล และวิเคราะห์เพิ่มเติมตามวัตถุประสงค์ของการศึกษา
 
 **การใช้และตีความข้อมูล:** เนื้อหาและข้อสรุปในโครงการนี้เป็นผลการวิเคราะห์ของผู้จัดทำเพื่อวัตถุประสงค์ทางการศึกษา ไม่ใช่ข้อสรุปอย่างเป็นทางการของหน่วยงานเจ้าของข้อมูล
-
-**เอกสารและโครงการอ้างอิงเพิ่มเติม**
-
-- [DADS5001 Data Tools — Project EDA](https://github.com/mdanmek/nida-dads-notes/blob/main/dads5001-data-tools/project/eda/README.md)
-- [Exploring Thailand's Government Procurement Spending](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending)
-
-**ที่มาของภาพและกราฟ:** [Exploring Thailand's Government Procurement Spending](https://github.com/panithan1991/Exploring-Thailand-s-Government-Procurement-Spending)
 
 ---
 
