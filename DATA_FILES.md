@@ -2,7 +2,7 @@
 
 ข้อมูล CSV อยู่ใน [data_for_github](https://drive.google.com/drive/folders/1ssVrUcY4TiYee9T2B0pwgr5SwvPp_lAq) รวม **21 ไฟล์ ประมาณ 9.08 GB**
 
-ตำแหน่งใน Drive ของเจ้าของโครงการ:
+ตำแหน่งใน Drive:
 
 ```text
 /content/drive/MyDrive/DADS5001/project_1_dads5001/data_for_github/
