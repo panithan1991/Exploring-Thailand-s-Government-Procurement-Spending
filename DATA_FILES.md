@@ -36,5 +36,4 @@
 | [project_overview_2569.csv](https://drive.google.com/file/d/1h3Oah1ARYenycAJnLa1DTefzjMryQuJ5/view) | 01 | 1170.84 |
 | [repeated_near_500k_agency_supplier_2569.csv](https://drive.google.com/file/d/10fT6PqZbBa5mS4GEHHEOf8_qIeASToQk/view) | 05 | 0.35 |
 
-ไฟล์ `project_overview` ทั้งสามปีมีอยู่แล้วในโฟลเดอร์ปลายทาง ชื่อและขนาดตรงกับต้นฉบับ จึงใช้สำเนาเดิม อีก 18 ไฟล์คัดลอกผ่าน Google Drive โดยตรง ตรวจรายการปลายทางและขนาดครบ 21 ไฟล์แล้ว ไม่ได้ดาวน์โหลดเนื้อหาไฟล์ใหญ่ลงเครื่องเพื่อตรวจ checksum
 
