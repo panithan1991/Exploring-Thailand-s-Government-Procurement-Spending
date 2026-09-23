@@ -380,7 +380,7 @@ Pattern 2 มองอีกมุมหนึ่ง: ผู้รับจ้�
 | [02 — เตรียมข้อมูล](notebook/02_construction_data_preparation_2569.ipynb) | คัดเลือกและตรวจข้อมูลก่อสร้าง |
 | [03 — สำรวจข้อมูล](notebook/03_construction_eda_2569.ipynb) | ดูการกระจายวงเงินและวิธีจัดซื้อจัดจ้าง |
 | [04 — ตัวชี้วัด](notebook/04_construction_review_indicators_2569.ipynb) | วิเคราะห์ตัวชี้วัดระดับโครงการ |
-| [05 — กราฟสรุป](notebook/05_construction_storytelling_visuals_2569.ipynb) | ดูกราฟจากไฟล์ผลวิเคราะห์ของ Pae |
+| [05 — กราฟสรุป](notebook/05_construction_storytelling_visuals_2569.ipynb) | ดูกราฟจากไฟล์ผลวิเคราะห์โครงการก่อสร้าง |
 | [06 — แผนที่](notebook/06_top_entities_longlat_maps_2569.ipynb) | ดูการกระจายงานของหน่วยงานและผู้รับจ้าง |
 | [07 — Violin plot](notebook/07_construction_contract_value_violin_2569.ipynb) | เปรียบเทียบวงเงินสัญญาก่อสร้างของ 8 หน่วยงานที่มีสัญญามากที่สุด |
 
