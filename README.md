@@ -265,14 +265,19 @@
 
 
 
-
+<a id="study-scope"></a>
 
 ![](figure/map.png)
 
+<a id="near-ceiling"></a>
 
 
 
+<a id="study-scope"></a>
 
+![](figure/map2.png)
+
+<a id="near-ceiling"></a>
 
 
 
