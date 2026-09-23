@@ -121,7 +121,7 @@
 
 <p align="center">
   <a href="figure/10_budget_by_function_with_icons_2567.png">
-    <img src="figure/10_budget_by_function_with_icons_2567.png" width="92%" alt="วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ 2567">
+    <img src="figure/10_budget_by_function_with_icons_2567.png" width="92%" alt="ภาพที่ 1 วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ พ.ศ. 2567">
   </a>
 </p>
 
@@ -134,7 +134,7 @@
 
 <p align="center">
   <a href="figure/10_budget_by_function_with_icons_2568.png">
-    <img src="figure/10_budget_by_function_with_icons_2568.png" width="92%" alt="วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ 2568">
+    <img src="figure/10_budget_by_function_with_icons_2568.png" width="92%" alt="ภาพที่ 2 วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ พ.ศ. 2568">
   </a>
 </p>
 
@@ -147,7 +147,7 @@
 
 <p align="center">
   <a href="figure/10_budget_by_function_with_icons_2569.png">
-    <img src="figure/10_budget_by_function_with_icons_2569.png" width="92%" alt="วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ 2569 (ข้อมูล ณ 30 กรกฎาคม 2569)">
+    <img src="figure/10_budget_by_function_with_icons_2569.png" width="92%" alt="ภาพที่ 3 วงเงินงบประมาณรวมตามหมวดภารกิจ ปีงบประมาณ พ.ศ. 2569 (ข้อมูล ณ 30 กรกฎาคม 2569)">
   </a>
 </p>
 
