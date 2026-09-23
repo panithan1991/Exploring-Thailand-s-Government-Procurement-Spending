@@ -110,12 +110,12 @@
 
 | ปีงบประมาณ พ.ศ. 2567 | ปีงบประมาณ พ.ศ. 2568 | ปีงบประมาณ พ.ศ. 2569*<br>(ข้อมูล ณ 30 กรกฎาคม 2569) |
 | :---: | :---: | :---: |
-| [![วงเงินตามหมวดภารกิจ ปี 2567](figure/10_budget_by_function_with_icons_2567.png)](figure/10_budget_by_function_with_icons_2567.png) | [![วงเงินตามหมวดภารกิจ ปี 2568](figure/10_budget_by_function_with_icons_2568.png)](figure/10_budget_by_function_with_icons_2568.png) | [![วงเงินตามหมวดภารกิจ ปี 2569 (ข้อมูล ณ 30 กรกฎาคม 2569)](figure/10_budget_by_function_with_icons_2569.png)](figure/10_budget_by_function_with_icons_2569.png) |
+| [![วงเงินตามหมวดภารกิจ ปีงบประมาณ พ.ศ. 2567](figure/10_budget_by_function_with_icons_2567.png)](figure/10_budget_by_function_with_icons_2567.png) | [![วงเงินตามหมวดภารกิจ ปีงบประมาณ พ.ศ. 2568](figure/10_budget_by_function_with_icons_2568.png)](figure/10_budget_by_function_with_icons_2568.png) | [![วงเงินตามหมวดภารกิจ ปีงบประมาณ พ.ศ. 2569 (ข้อมูล ณ 30 กรกฎาคม 2569)](figure/10_budget_by_function_with_icons_2569.png)](figure/10_budget_by_function_with_icons_2569.png) |
 
-<p align="center"><em>รูปที่ 1–3 วงเงินงบประมาณรวมจำแนกตามหมวดภารกิจ </em></p>
+<p align="center"><em>รูปที่ 1–3 วงเงินงบประมาณรวมจำแนกตามหมวดภารกิจ ปีงบประมาณ พ.ศ. 2567 - 2569 </em></p>
 
 <details>
-<summary><b>ดูภาพขยาย — ปีงบประมาณ 2567</b></summary>
+<summary><b>ดูภาพขยาย — ปีงบประมาณ พ.ศ. 2567</b></summary>
 
 <br>
 
@@ -128,7 +128,7 @@
 </details>
 
 <details>
-<summary><b>ดูภาพขยาย — ปีงบประมาณ 2568</b></summary>
+<summary><b>ดูภาพขยาย — ปีงบประมาณ พ.ศ. 2568</b></summary>
 
 <br>
 
@@ -141,7 +141,7 @@
 </details>
 
 <details>
-<summary><b>ดูภาพขยาย — ปีงบประมาณ 2569 (ข้อมูล ณ 30 กรกฎาคม 2569)</b></summary>
+<summary><b>ดูภาพขยาย — ปีงบประมาณ พ.ศ. 2569 (ข้อมูล ณ 30 กรกฎาคม 2569)</b></summary>
 
 <br>
 
