@@ -436,7 +436,7 @@ Top 10 ในภาพไม่ได้หมายถึงคู่ที่�
 
 **เริ่มรันใน Google Colab**
 
-1. เปิด [รายการ Notebook ทั้ง 7 ไฟล์และลิงก์ Open in Colab](notebook/README.md) แล้วเลือกหัวข้อที่สนใจตามตารางด้านล่าง สามารถเปิดดูรูปผลลัพธ์ที่ฝังไว้ใน Notebook ก่อนตัดสินใจรันได้
+1. เปิด [รายการ Notebook ทั้ง 7 ไฟล์และลิงก์ Open in Colab](notebook/README.md) แล้วเลือกหัวข้อที่สนใจตามตารางด้านล่าง สามารถเปิดดูรูปผลลัพธ์ที่ฝังไว้ใน Notebook ก่อนตัดสินใจรันได้ โดย Notebook 05 รุ่นล่าสุดมีกราฟตัวอย่าง 8 รูป
 2. ตรวจว่าเข้าถึง [ข้อมูลบน Google Drive](https://drive.google.com/drive/folders/1ssVrUcY4TiYee9T2B0pwgr5SwvPp_lAq) ได้ หากเปิดไม่ได้ ให้ติดต่อเจ้าของข้อมูล
 3. สำหรับ Notebook 01 ตั้งค่า `YEAR` เป็น 2567, 2568 หรือ 2569 ส่วน Notebook 02–07 ใช้ปี 2569
 4. กด **Runtime → Run all** เพื่อคำนวณผลจากข้อมูลอีกครั้ง ค่าเริ่มต้นแสดงตารางและกราฟใน Colab โดยไม่ต้อง Mount Drive หรือกำหนดโฟลเดอร์บันทึกผล Notebook 07 จะบันทึก PNG/SVG ลง Drive เฉพาะเมื่อเปลี่ยน `SAVE_FIGURE = True`
@@ -447,7 +447,7 @@ Top 10 ในภาพไม่ได้หมายถึงคู่ที่�
 | [02 — เตรียมข้อมูล](notebook/02_construction_data_preparation_2569.ipynb) | คัดเลือกและตรวจข้อมูลก่อสร้าง |
 | [03 — สำรวจข้อมูล](notebook/03_construction_eda_2569.ipynb) | ดูการกระจายวงเงินและวิธีจัดซื้อจัดจ้าง |
 | [04 — ตัวชี้วัด](notebook/04_construction_review_indicators_2569.ipynb) | วิเคราะห์ตัวชี้วัดระดับโครงการ |
-| [05 — กราฟสรุป](notebook/05_construction_storytelling_visuals_2569.ipynb) | ดูกราฟจากไฟล์ผลวิเคราะห์โครงการก่อสร้าง |
+| [05 — กราฟสรุป](notebook/05_construction_storytelling_visuals_2569.ipynb) | ดูกราฟเล่าเรื่อง 8 รูปจากผลวิเคราะห์ระดับสัญญา ตั้งแต่การกระจายวงเงินจนถึงรายการที่ควรตรวจเอกสารก่อน |
 | [06 — แผนที่](notebook/06_top_entities_longlat_maps_2569.ipynb) | ดูการกระจายงานของหน่วยงานและผู้รับจ้าง |
 | [07 — Violin plot](notebook/07_construction_contract_value_violin_2569.ipynb) | เปรียบเทียบวงเงินสัญญาก่อสร้างของ 8 หน่วยงานที่มีสัญญามากที่สุด |
 
@@ -455,11 +455,14 @@ Top 10 ในภาพไม่ได้หมายถึงคู่ที่�
 
 **ข้อมูลที่ใช้**
 
-ข้อมูล CSV อยู่ใน Drive รวม 21 ไฟล์ ประมาณ 9.08 GB โดยแต่ละ Notebook ดาวน์โหลดเฉพาะไฟล์ที่ใช้ลงพื้นที่ชั่วคราวของ Colab; Notebook 07 สามารถตั้ง `LOCAL_DATA_DIR` ในเซลล์ตั้งค่าเพื่ออ่านไฟล์ที่มีอยู่แล้วใน Drive แทนการดาวน์โหลดได้
+ข้อมูล CSV อยู่ใน Drive รวม **22 ไฟล์ ประมาณ 9.08 GB** โดยแต่ละ Notebook ดาวน์โหลดเฉพาะไฟล์ที่ใช้ลงพื้นที่ชั่วคราวของ Colab ไม่ได้ดาวน์โหลดทั้งชุดทุกครั้ง
+
+Notebook 05 รุ่นล่าสุดใช้ไฟล์ 5 ไฟล์ ได้แก่ `construction_contract_supplier_study_scope_2569.csv`, `construction_contract_review_indicators_2569.csv`, `repeated_near_500k_agency_supplier_2569.csv`, **`agency_supplier_dependence_2569.csv`** (ไฟล์ที่เพิ่มใหม่) และ `priority_review_contracts_2569.csv` ทั้งหมดอยู่ในโฟลเดอร์ข้อมูลที่แชร์ จึงรัน Notebook 05 แยกได้โดยไม่ต้องรัน Notebook 02–04 ก่อน ดูลิงก์และรายการข้อมูลทั้งหมดใน [DATA_FILES.md](DATA_FILES.md)
 
 **ข้อควรทราบก่อนรัน**
 
-- Notebook 01–06 ไม่บันทึกผล CSV/PNG/SVG ลง Drive และไม่เขียนทับรูปใน `figure/` เมื่อรันจบจะลบไฟล์พัก แต่เก็บ DataFrame ไว้ใช้งานต่อ ส่วน Notebook 07 ค่าเริ่มต้นแสดงผลอย่างเดียว และจะบันทึก PNG/SVG ลง Drive เมื่อ `SAVE_FIGURE = True`
+- Notebook 01–06 (รวม Notebook 05 รุ่นล่าสุด) ไม่บันทึกผล CSV/PNG/SVG ลง Drive และไม่เขียนทับรูปใน `figure/` เมื่อรันจบจะลบไฟล์พัก แต่เก็บ DataFrame ไว้ใช้งานต่อ ส่วน Notebook 07 ค่าเริ่มต้นแสดงผลอย่างเดียว และจะบันทึก PNG/SVG ลง Drive เมื่อ `SAVE_FIGURE = True`
+- หาก Drive จำกัดการดาวน์โหลด ให้ดาวน์โหลดไฟล์ที่ Notebook ต้องใช้เอง แล้วตั้ง `LOCAL_DATA_DIR` ในเซลล์ตั้งค่าของ Notebook 05 หรือ 07 ให้ชี้ไปยังโฟลเดอร์ที่เก็บไฟล์เหล่านั้น ผลที่รันใหม่อาจต่างจากรูปตัวอย่างหากใช้ CSV คนละรุ่น
 
 ---
 
