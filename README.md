@@ -457,7 +457,7 @@ Top 10 ในภาพไม่ได้หมายถึงคู่ที่�
 
 ข้อมูล CSV อยู่ใน Drive รวม **22 ไฟล์ ประมาณ 9.08 GB** โดยแต่ละ Notebook ดาวน์โหลดเฉพาะไฟล์ที่ใช้ลงพื้นที่ชั่วคราวของ Colab ไม่ได้ดาวน์โหลดทั้งชุดทุกครั้ง
 
-Notebook 05 รุ่นล่าสุดใช้ไฟล์ 5 ไฟล์ ได้แก่ `construction_contract_supplier_study_scope_2569.csv`, `construction_contract_review_indicators_2569.csv`, `repeated_near_500k_agency_supplier_2569.csv`, **`agency_supplier_dependence_2569.csv`** (ไฟล์ที่เพิ่มใหม่) และ `priority_review_contracts_2569.csv` ทั้งหมดอยู่ในโฟลเดอร์ข้อมูลที่แชร์ จึงรัน Notebook 05 แยกได้โดยไม่ต้องรัน Notebook 02–04 ก่อน ดูลิงก์และรายการข้อมูลทั้งหมดใน [DATA_FILES.md](DATA_FILES.md)
+ดูลิงก์และรายการข้อมูลทั้งหมดใน [DATA_FILES.md](DATA_FILES.md)
 
 **ข้อควรทราบก่อนรัน**
 
