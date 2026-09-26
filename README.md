@@ -457,16 +457,6 @@ Top 10 ในภาพไม่ได้หมายถึงคู่ที่�
 
 ข้อมูล CSV อยู่ใน Drive รวม 21 ไฟล์ ประมาณ 9.08 GB โดยแต่ละ Notebook ดาวน์โหลดเฉพาะไฟล์ที่ใช้ลงพื้นที่ชั่วคราวของ Colab; Notebook 07 สามารถตั้ง `LOCAL_DATA_DIR` ในเซลล์ตั้งค่าเพื่ออ่านไฟล์ที่มีอยู่แล้วใน Drive แทนการดาวน์โหลดได้
 
-| Notebook | ข้อมูลที่ใช้ |
-|---|---|
-| 01 | `project_overview`, `07_top10_project_budget` และ `07_lower10_project_budget` ของปีที่เลือก |
-| 02–04 | `2569-egp-contract-1.csv` ถึง `2569-egp-contract-8.csv` |
-| 05 | `construction_contract_supplier_study_scope_2569.csv`, `construction_contract_review_indicators_2569.csv`, `repeated_near_500k_agency_supplier_2569.csv` และ `priority_review_contracts_2569.csv` |
-| 06 | `construction_contract_review_indicators_2569.csv` |
-| 07 | `construction_contract_supplier_study_scope_2569.csv` |
-
-ดูชื่อไฟล์ ลิงก์ดาวน์โหลด และตำแหน่งต้นทางทั้งหมดใน [DATA_FILES.md](DATA_FILES.md) หรือดูรายการสำหรับตรวจสอบใน [data_manifest.json](data_manifest.json)
-
 **ข้อควรทราบก่อนรัน**
 
 - Notebook 01–06 ไม่บันทึกผล CSV/PNG/SVG ลง Drive และไม่เขียนทับรูปใน `figure/` เมื่อรันจบจะลบไฟล์พัก แต่เก็บ DataFrame ไว้ใช้งานต่อ ส่วน Notebook 07 ค่าเริ่มต้นแสดงผลอย่างเดียว และจะบันทึก PNG/SVG ลง Drive เมื่อ `SAVE_FIGURE = True`
