@@ -472,12 +472,7 @@ Top 10 ในภาพไม่ได้หมายถึงคู่ที่�
 ![PNG](https://img.shields.io/badge/PNG-DATA%20VISUALIZATION-176B70?style=for-the-badge)
 
 <br><br>
-
 ### Thailand Government Procurement Spending Analysis
-
-การวิเคราะห์ข้อมูลการจัดซื้อจัดจ้างภาครัฐของประเทศไทย  
-ปีงบประมาณ พ.ศ. 2567–2569
-
 <br>
 
 **Data Source**
@@ -490,11 +485,9 @@ Thailand Government Spending
 `Data Preprocessing` · `Data Cleaning` · `Exploratory Data Analysis` · `Data Visualization`
 
 <br>
-
 <sub>
 โครงการนี้จัดทำขึ้นเพื่อวัตถุประสงค์ด้านการศึกษาและการวิเคราะห์ข้อมูล
 </sub>
-
 <br><br>
 
 [**กลับสู่ด้านบน**](#top)
