@@ -1,8 +1,8 @@
 # ข้อมูลสำหรับรัน Notebooks บน Google Colab
 
-ข้อมูล CSV อยู่ใน [data_for_github](https://drive.google.com/drive/folders/1ssVrUcY4TiYee9T2B0pwgr5SwvPp_lAq) รวม **22 ไฟล์ ประมาณ 9.08 GB** ไม่ต้องนำข้อมูลเหล่านี้ขึ้น GitHub
+ข้อมูล CSV อยู่ใน [data_for_github](https://drive.google.com/drive/folders/1ssVrUcY4TiYee9T2B0pwgr5SwvPp_lAq) รวม **22 ไฟล์ ประมาณ 9.08 GB** 
 
-ไฟล์ทั้งหมดวางในโฟลเดอร์นี้โดยตรง ไม่มีโฟลเดอร์ย่อย Notebook ดาวน์โหลดเฉพาะข้อมูลที่ใช้ ไม่ได้ดาวน์โหลดทั้ง 22 ไฟล์ทุกครั้ง
+Notebook ดาวน์โหลดเฉพาะข้อมูลที่ใช้ ไม่ได้ดาวน์โหลดทั้ง 22 ไฟล์ทุกครั้ง
 
 ## รายการข้อมูล
 
